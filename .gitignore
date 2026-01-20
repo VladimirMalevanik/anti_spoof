@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Artifacts
+artifacts/
+runs/
+wandb/
+*.pth
+*.pt
+
+# Dataset (не коммитим ASVspoof)
+ASVspoof2019*/
+**/LA/LA/
+**/ASVspoof2019_LA_*/
+**/*.flac
+**/*.wav
